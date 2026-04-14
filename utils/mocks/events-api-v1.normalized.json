@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "api_version": "v1",
+    "source": "mock-mixed",
+    "generated_at": "2026-04-14T19:10:00Z",
+    "count": 4
+  },
+  "data": [
+    {
+      "id": "evt_1001",
+      "title": "Jazzkaar",
+      "summary": "The biggest jazz festival in the Baltics with venues across Tallinn.",
+      "image_url": "https://images.visitestonia.com/jazzkaar-2026-hero.jpg",
+      "starts_at": "2026-04-25T17:00:00+03:00",
+      "ends_at": "2026-05-02T23:30:00+03:00",
+      "location_name": "Telliskivi Creative City",
+      "location_address": "Telliskivi tn 60a, Tallinn",
+      "city": "Tallinn",
+      "coordinates": {
+        "lat": 59.4373,
+        "lon": 24.7285
+      },
+      "category": "festival",
+      "window_bucket": "weekend",
+      "source": "visit-estonia"
+    },
+    {
+      "id": "evt_1002",
+      "title": "Tallinn Coffee Festival",
+      "summary": "A specialty coffee weekend for roasters, baristas, and curious visitors.",
+      "image_url": "https://images.visitestonia.com/coffee-festival-2026-hero.jpg",
+      "starts_at": "2026-04-25T10:00:00+03:00",
+      "ends_at": "2026-04-26T19:00:00+03:00",
+      "location_name": "Kultuurikatel",
+      "location_address": "Kursi tn 3, Tallinn",
+      "city": "Tallinn",
+      "coordinates": {
+        "lat": 59.4446,
+        "lon": 24.7536
+      },
+      "category": "food-drink",
+      "window_bucket": "weekend",
+      "source": "visit-estonia"
+    },
+    {
+      "id": "evt_579201",
+      "title": "Linnahall Open Air Film Night",
+      "summary": "Open-air screening with local short films and live score before sunset.",
+      "image_url": "https://kultuur.tallinn.ee/media/579201-cover.jpg",
+      "starts_at": "2026-05-16T19:30:00+03:00",
+      "ends_at": "2026-05-16T23:00:00+03:00",
+      "location_name": "Linnahall",
+      "location_address": "Kalasadama tn 4, Tallinn",
+      "city": "Tallinn",
+      "coordinates": {
+        "lat": 59.4489,
+        "lon": 24.7498
+      },
+      "category": "film",
+      "window_bucket": "tonight",
+      "source": "tallinn-avaandmed"
+    },
+    {
+      "id": "evt_579288",
+      "title": "Late Tram Poetry Session",
+      "summary": "Mobile poetry performances on selected tram lines after 21:00.",
+      "image_url": null,
+      "starts_at": "2026-05-22T21:00:00+03:00",
+      "ends_at": "2026-05-22T22:30:00+03:00",
+      "location_name": "Rotermann Start Point",
+      "location_address": "Roseni tn 7, Tallinn",
+      "city": "Tallinn",
+      "coordinates": {
+        "lat": 59.4387,
+        "lon": 24.7612
+      },
+      "category": "literature",
+      "window_bucket": "tonight",
+      "source": "tallinn-avaandmed"
+    }
+  ]
+}

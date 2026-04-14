@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "source": "visit-estonia",
+    "locale": "en",
+    "page": 1,
+    "per_page": 20,
+    "total": 3,
+    "fetched_at": "2026-04-14T19:10:00Z"
+  },
+  "data": [
+    {
+      "id": "1001",
+      "type": "event",
+      "title": "Jazzkaar",
+      "slug": "jazzkaar",
+      "intro": "The biggest jazz festival in the Baltics with venues across Tallinn.",
+      "description": "Jazzkaar brings local and international artists to Tallinn every spring.",
+      "start_time": "2026-04-25T17:00:00+03:00",
+      "end_time": "2026-05-02T23:30:00+03:00",
+      "is_all_day": false,
+      "status": "published",
+      "category": [
+        "music",
+        "festival"
+      ],
+      "location": {
+        "name": "Telliskivi Creative City",
+        "address": "Telliskivi tn 60a, Tallinn",
+        "city": "Tallinn",
+        "country": "Estonia",
+        "lat": 59.4373,
+        "lon": 24.7285
+      },
+      "media": {
+        "hero_image_url": "https://images.visitestonia.com/jazzkaar-2026-hero.jpg",
+        "gallery": [
+          "https://images.visitestonia.com/jazzkaar-2026-1.jpg",
+          "https://images.visitestonia.com/jazzkaar-2026-2.jpg"
+        ]
+      },
+      "external_url": "https://visitestonia.com/en/jazzkaar",
+      "ticket_url": "https://tickets.example.ee/jazzkaar"
+    },
+    {
+      "id": "1002",
+      "type": "event",
+      "title": "Tallinn Coffee Festival",
+      "slug": "tallinn-coffee-festival",
+      "intro": "A specialty coffee weekend for roasters, baristas, and curious visitors.",
+      "description": "Two-day urban festival with talks, cuppings, and workshops.",
+      "start_time": "2026-04-25T10:00:00+03:00",
+      "end_time": "2026-04-26T19:00:00+03:00",
+      "is_all_day": false,
+      "status": "published",
+      "category": [
+        "food-drink",
+        "festival"
+      ],
+      "location": {
+        "name": "Kultuurikatel",
+        "address": "Kursi tn 3, Tallinn",
+        "city": "Tallinn",
+        "country": "Estonia",
+        "lat": 59.4446,
+        "lon": 24.7536
+      },
+      "media": {
+        "hero_image_url": "https://images.visitestonia.com/coffee-festival-2026-hero.jpg",
+        "gallery": []
+      },
+      "external_url": "https://visitestonia.com/en/tallinn-coffee-festival",
+      "ticket_url": null
+    },
+    {
+      "id": "1003",
+      "type": "event",
+      "title": "Old Town Courtyard Sound Walk",
+      "slug": "old-town-courtyard-sound-walk",
+      "intro": "An ambient sound walk through hidden courtyards in Tallinn Old Town.",
+      "description": "Small-group cultural walk with live performers and local stories.",
+      "start_time": "2026-05-09T20:00:00+03:00",
+      "end_time": "2026-05-09T22:00:00+03:00",
+      "is_all_day": false,
+      "status": "published",
+      "category": [
+        "culture",
+        "walking-tour"
+      ],
+      "location": {
+        "name": "Vene Street Courtyards",
+        "address": "Vene tn 12, Tallinn",
+        "city": "Tallinn",
+        "country": "Estonia",
+        "lat": null,
+        "lon": null
+      },
+      "media": {
+        "hero_image_url": null,
+        "gallery": []
+      },
+      "external_url": "https://visitestonia.com/en/old-town-courtyard-sound-walk",
+      "ticket_url": "https://tickets.example.ee/courtyard-sound-walk"
+    }
+  ]
+}

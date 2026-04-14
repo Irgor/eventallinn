@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "source": "tallinn-avaandmed",
+    "endpoint": "/data/",
+    "table": "tallinna_kultuuriurituste_kalender",
+    "columns": "*",
+    "page": 1,
+    "per_page": 100,
+    "total": 3,
+    "fetched_at": "2026-04-14T19:10:00Z"
+  },
+  "data": [
+    {
+      "id": 579201,
+      "nimetus": "Linnahall Open Air Film Night",
+      "liik": "Kultuur",
+      "alamliik": "Film",
+      "kirjeldus": "Open-air screening with local short films and live score before sunset.",
+      "algus_aeg": "2026-05-16T19:30:00+03:00",
+      "lopp_aeg": "2026-05-16T23:00:00+03:00",
+      "toimumiskoht_nimi": "Linnahall",
+      "aadress": "Kalasadama tn 4, Tallinn",
+      "linnaosa": "Kesklinn",
+      "lat": 59.4489,
+      "lon": 24.7498,
+      "korraldaja": "Tallinn Culture Office",
+      "piletiinfo_url": "https://kultuur.tallinn.ee/event/579201",
+      "pildi_url": "https://kultuur.tallinn.ee/media/579201-cover.jpg",
+      "keel": "et"
+    },
+    {
+      "id": 579244,
+      "nimetus": "Kalamaja Street Food Sunday",
+      "liik": "Vaba aeg",
+      "alamliik": "Toit",
+      "kirjeldus": "Neighborhood food market with local chefs and artisan makers.",
+      "algus_aeg": "2026-05-17T11:00:00+03:00",
+      "lopp_aeg": "2026-05-17T18:00:00+03:00",
+      "toimumiskoht_nimi": "Balti Jaama Turg",
+      "aadress": "Kopli tn 1, Tallinn",
+      "linnaosa": "Pohja-Tallinn",
+      "lat": 59.4424,
+      "lon": 24.7205,
+      "korraldaja": "Balti Jaam Community",
+      "piletiinfo_url": null,
+      "pildi_url": "https://kultuur.tallinn.ee/media/579244-cover.jpg",
+      "keel": "et"
+    },
+    {
+      "id": 579288,
+      "nimetus": "Late Tram Poetry Session",
+      "liik": "Kultuur",
+      "alamliik": "Kirjandus",
+      "kirjeldus": "Mobile poetry performances on selected tram lines after 21:00.",
+      "algus_aeg": "2026-05-22T21:00:00+03:00",
+      "lopp_aeg": "2026-05-22T22:30:00+03:00",
+      "toimumiskoht_nimi": "Rotermann Start Point",
+      "aadress": "Roseni tn 7, Tallinn",
+      "linnaosa": "Kesklinn",
+      "lat": 59.4387,
+      "lon": 24.7612,
+      "korraldaja": "Tallinn Literary Nights",
+      "piletiinfo_url": "https://kultuur.tallinn.ee/event/579288",
+      "pildi_url": null,
+      "keel": "et"
+    }
+  ]
+}
