@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import Grainient from "@/components/Grainient";
+import Nav from "@/components/Nav";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const spaceGrotesk = Space_Grotesk({
@@ -25,7 +27,40 @@ export default function RootLayout({
       lang="en"
       className={cn("dark", "h-full", "antialiased", "font-sans", inter.variable, spaceGrotesk.variable)}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+
+        <div className="absolute top-0 left-0 w-full h-full z-[-1]">
+          <Grainient
+            color1="#0c090c"
+            color2="#016630"
+            color3="#a89ea9"
+            timeSpeed={0.15}
+            colorBalance={0}
+            warpStrength={1}
+            warpFrequency={5}
+            warpSpeed={1}
+            warpAmplitude={50}
+            blendAngle={0}
+            blendSoftness={0.05}
+            rotationAmount={500}
+            noiseScale={2}
+            grainAmount={0.1}
+            grainScale={2}
+            grainAnimated={false}
+            contrast={1.5}
+            gamma={1}
+            saturation={1}
+            centerX={0}
+            centerY={0}
+            zoom={0.9}
+          />
+        </div>
+
+        <main className="relative z-10">
+          <Nav />
+          {children}
+        </main>
+      </body>
     </html>
   );
 }
